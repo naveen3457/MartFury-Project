@@ -1,0 +1,58 @@
+
+.model{
+    position: fixed;
+    height: 22rem;
+    width: 45rem;
+    top: 25%;
+    left: 30%;
+    z-index:1;
+    background-image: url("https://media.istockphoto.com/id/1224023794/vector/yellow-and-orange-unusual-background-with-subtle-rays-of-light.jpg?s=612x612&w=0&k=20&c=_KLcokdmSZucU0UNNQInH4dhIZ0yke9HnxcgngaUK5w=");
+    background-size: 100%;
+}
+.model-container{
+    position: fixed;
+    right: -45rem;
+    top: 0;
+    z-index: 1;
+}
+.closebtn{
+    padding: 0.7rem;
+    font-size: 2rem;
+    position: absolute;
+    top: -5%;
+    left: 90%;
+}
+.model-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    width: 40rem;
+}
+ .model-content p{
+        font-weight: 500;
+        color: rgb(30, 19, 19);
+        width: 25rem;
+    }
+
+    .model-content h1{
+        font-size: 2rem;
+    }
+    .model-content input{
+        height: 2rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius:1rem;
+        border: none;
+        background-color: rgb(221, 220, 220);
+        padding-left: 0.3rem;
+    }
+    .model-content button{
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color:black;
+        height: 2rem;
+        width: 9rem;
+        border: none;
+        color:white;
+}

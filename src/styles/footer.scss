@@ -1,0 +1,63 @@
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-email
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10rem;
+    border: 1px solid rgba(155, 150, 150, 0.584);
+    padding: 2rem 0;
+}
+.footer-email li
+{
+   
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer-email span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-body
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+.footer-body h6
+{
+    font-size: 1.2rem;
+}
+.emailinput
+{
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 0.2rem 0 0 0.2rem;
+    outline: none;
+    border: 1px solid rgba(143, 135, 135, 0.559);
+}
+.subscribe-btn
+{
+    background-color: rgb(252,184,0);
+    font-size: 1.1rem;
+    padding: 0.9rem;
+    border-radius: 0 0.2rem 0.2rem 0;
+    width: 9rem;
+    border: none;
+}
+.num
+{
+   color: rgb(252,184,0);
+   font-size: 1.2rem;
+   font-weight: 700
+
+}

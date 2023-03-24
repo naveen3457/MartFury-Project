@@ -1,0 +1,43 @@
+.login-container
+{
+    width: 50rem;
+    height: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(240, 219, 193, 0.619);
+}
+.login-container input
+{
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgba(194, 186, 186, 0.539);
+}
+.btn
+{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: rgb(241, 183, 75);
+    color: white;
+    width: 6rem;
+    outline: none;
+    border: none;
+}
+.btn:active
+{
+    background-color: orange;
+    color: black;
+}
+.closbtnn
+{
+    position: absolute;
+    top: 20%;
+    left: 73%;
+    font-size: 2rem;
+}

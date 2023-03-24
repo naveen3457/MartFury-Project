@@ -1,0 +1,92 @@
+.logo-container
+{
+    width: 99.8%;
+}
+.logo-imgs
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+    gap: 5.2rem;
+}
+
+.clothing-body
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.clothing
+{
+    width: 21rem;
+    height: 10rem;
+    border: 1px solid rgba(143, 139, 139, 0.737);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.clothing:hover
+{
+    border: 1px solid rgb(252,184,0);
+}
+.clothing-img
+{
+    width: 5rem;
+    height: 5rem;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5rem;
+
+}
+.apparel
+{
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+.sub-details
+{
+    font-size: 1.1rem;
+    color: grey;
+    position: relative;
+    cursor: pointer;
+}
+.sub-details::after
+{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    background-color: black;
+    transition: 0.5s;
+
+}
+.sub-details::after
+{
+    left: 0;
+    bottom: -3px;
+}
+.sub-details:hover:after
+{
+    width: 70%;
+}
+
+
+
+
+

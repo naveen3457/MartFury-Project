@@ -1,0 +1,27 @@
+.carousel-container1{
+    width: 99.7%;
+    height: 25rem;
+    // overflow: hidden;
+    position: relative;
+    .carousel-item-cont1{
+        display: flex;
+    }
+   
+    .prev{
+        position: absolute;
+        left: 0;
+        top: 45%;
+       
+    }
+    .next{
+        position: absolute;
+        right: 0;
+        top: 45%;
+    }
+    .prev:hover{
+        background-color: rgb(216, 185, 26);
+    }
+    .next:hover{
+        background-color: rgb(216, 185, 26);
+    }
+}
